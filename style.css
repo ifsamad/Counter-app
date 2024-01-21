@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background: #e3f9ff;
+}
+
+
+
+#decbtn, #resetbtn, #incbtn {
+    padding: 10px;
+    margin: 5px;
+    background: burlywood;
+    border-radius: 5px;
+}
+
+#countlbl {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+}
